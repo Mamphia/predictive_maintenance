@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Predictive Maintenance</title>
+</head>
+<body>
+    <h2>Upload Sensor Data CSV</h2>
+    <form method="POST" enctype="multipart/form-data">
+        <input type="file" name="file">
+        <input type="submit" value="Predict RUL">
+    </form>
+
+    {% if prediction %}
+        <h3>Predicted RUL:</h3>
+        <pre>{{ prediction }}</pre>
+    {% endif %}
+</body>
+</html>
