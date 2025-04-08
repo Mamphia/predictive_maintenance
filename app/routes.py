@@ -1,9 +1,9 @@
 from flask import Blueprint, render_template, request
-from app.model_utils import load_model, predict_rul
+from app.model_utils import load_lstm_model, predict_rul
 import pandas as pd
 
 main = Blueprint('main', __name__)
-model = load_model('models/lstm_model.keras')
+model = load_lstm_model()  # loads lstm_model.keras from models/
 
 @main.route('/', methods=['GET', 'POST'])
 def index():
