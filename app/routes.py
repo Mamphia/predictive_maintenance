@@ -3,7 +3,7 @@ from app.model_utils import load_model, predict_rul
 import pandas as pd
 
 main = Blueprint('main', __name__)
-model = load_model('models/lstm_model.h5')
+model = load_model('models/lstm_model.keras')
 
 @main.route('/', methods=['GET', 'POST'])
 def index():
