@@ -1,21 +1,6 @@
 # 🚀 CMAPSS RUL Prediction Pipeline  
 **End-to-End Predictive Maintenance for Aircraft Engines**  
-*LSTM, Random Forest, and XGBoost for Remaining Useful Life (RUL) Estimation*  
-
-![CMAPSS Pipeline Demo](https://via.placeholder.com/800x400?text=CMAPSS+RUL+Prediction+Visualization)  
-*(Replace with actual demo GIF/screenshot)*  
-
----
-
-## **📌 Table of Contents**  
-- [Key Features](#-key-features)  
-- [Tech Stack](#-tech-stack)  
-- [Results](#-results)  
-- [Installation](#-installation)  
-- [Usage](#-usage)  
-- [Deployment](#-deployment)  
-- [Contributing](#-contributing)  
-- [License](#-license)  
+*LSTM, Random Forest, and XGBoost for Remaining Useful Life (RUL) Estimation* 
 
 ---
 
@@ -44,6 +29,4 @@
 | **XGBoost**    | 55.3 | 5143  | 2.1                         |  
 | **Random Forest** | 56.1 | 5204  | 3.8                         |  
 
-**LSTM outperforms traditional ML by ~45% in MAE!**  
-
-![Prediction Comparison](https://via.placeholder.com/600x300?text=LSTM+vs+XGBoost+vs+RF+Performance)  
+**LSTM outperforms traditional ML by ~45% in MAE!** 
